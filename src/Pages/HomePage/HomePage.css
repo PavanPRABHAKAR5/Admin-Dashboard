@@ -1,0 +1,18 @@
+.home{
+    flex: 4;
+}
+
+.chartWidget{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.homeWidget{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+

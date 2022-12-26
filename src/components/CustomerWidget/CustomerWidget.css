@@ -1,0 +1,46 @@
+.widgetSm{
+    flex: 1;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+}
+
+.widgetSmTitle{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.widgetSmImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.WidgetSmList{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.WidgetSmListItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.widgetSmUser, .widgetSmInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.widgetSmUsername, .widgetSmPrice{
+    font-weight: 600;
+}
+
+.widgetSmUserId, .widgetSmPlace{
+    font-weight: 300;
+    color: rgb(130, 130, 130);
+}

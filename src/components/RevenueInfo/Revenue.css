@@ -1,0 +1,16 @@
+.featured{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.featureItem{
+    flex: 1;
+    margin: 2px 10px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: white;
+}

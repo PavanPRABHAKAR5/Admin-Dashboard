@@ -1,0 +1,60 @@
+.widgetLg{
+    flex: 2;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+}
+
+.widgetLgTitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+.widgetLgAmount{
+    display: flex;
+    flex-direction: column;
+}
+
+.widgetLgButton{
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+}
+
+.widgetLgButton.Completed{
+    background-color: #e5faf2;
+    color: #3bb077;
+}
+
+.widgetLgButton.Canceled{
+    background-color: #fff0f1;
+    color: #d95087;
+}
+
+.widgetLgButton.Pending{
+    background-color: #ebf1fe;
+    color: #2a7ade;
+}
+
+.widgetLgTabel{
+    width: 100%;
+    border-spacing: 20px;
+    cursor: pointer;
+}
+
+.widgetLgTh{
+    text-align: left;
+}
+
+
+.widgetLgPaymentMode, .widgetLgAmountDate, .widgetLgSocialMediatd,.widgetLgIcontd{
+    font-size: 300;
+    color:  rgb(130, 130, 130);
+}
+
+.widgetLgIcon{
+    cursor: pointer;
+}
+
